@@ -7,6 +7,7 @@ import java.util.Map;
 public class Model {
 
     private HttpServletRequest request;
+
     private Map<String, Object> attributes;
 
     public Model(HttpServletRequest request) {
@@ -24,5 +25,4 @@ public class Model {
     public Map<String, Object> getAttributes() {
         return attributes;
     }
-
 }
